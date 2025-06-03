@@ -1,6 +1,6 @@
 # Proyecto de Secuencias de Luces
 
-Este proyecto implementa un sistema de control de acceso con contraseña y varias secuencias de luces en lenguaje C, diseñado para ser ejecutado en una Raspberry Pi (o sistema Linux compatible). También incluye una compatibilidad básica para compilar y ejecutar en Windows, aunque con funcionalidad limitada en la interacción del terminal.
+Este proyecto implementa un sistema de control de acceso con contraseña y varias secuencias de luces en lenguaje C, diseñado para ser ejecutado en una Raspberry Pi (o sistema Linux compatible). También incluye compatibilidad para macOS y una compatibilidad básica para compilar y ejecutar en Windows, aunque con funcionalidad limitada en la interacción del terminal.
 
 ## Contenido
 
@@ -8,20 +8,17 @@ Este proyecto implementa un sistema de control de acceso con contraseña y varia
 
 ## Cómo Compilar
 
-El proyecto se puede compilar usando GCC.
+El proyecto se puede compilar usando GCC (o Clang, que es el compilador por defecto en macOS, compatible con GCC flags).
 
-**En Raspberry Pi (Linux):**
-
-Abre una terminal en el directorio del proyecto y ejecuta:
+**En Raspberry Pi (Linux) o macOS:**
 
 ```bash
 gcc proyecto.c -o proyecto -Wall -Wextra -pedantic -std=c99
 ```
+(En macOS, `gcc` might be an alias for Clang, which is fine).
 Los flags `-Wall`, `-Wextra`, `-pedantic`, y `-std=c99` son recomendados para habilitar advertencias útiles y usar el estándar C99.
 
 **En Windows (usando MinGW u otro GCC):**
-
-Abre una terminal en el directorio del proyecto y ejecuta:
 
 ```bash
 gcc proyecto.c -o proyecto.exe
@@ -32,7 +29,7 @@ gcc proyecto.c -o proyecto.exe
 
 Después de compilar, ejecuta el programa desde la terminal.
 
-**En Raspberry Pi (Linux):**
+**En Raspberry Pi (Linux) o macOS:**
 
 ```bash
 ./proyecto
@@ -48,14 +45,14 @@ Después de compilar, ejecuta el programa desde la terminal.
 ## Uso del Programa
 
 1.  Al iniciar, se te pedirá una contraseña de 5 dígitos. La contraseña por defecto es `12345`.
-    -   En Linux, los dígitos se mostrarán como `*` al escribirlos.
+    -   En Linux y macOS, los dígitos se mostrarán como `*` al escribirlos.
     -   En Windows, los dígitos se mostrarán directamente.
     -   Tienes 3 intentos para ingresar la contraseña correcta.
 
 2.  Si la contraseña es correcta, se mostrará un menú con las opciones de secuencias de luces.
 3.  Selecciona una opción ingresando el número correspondiente y presionando Enter.
 
-**Durante la ejecución de una secuencia (en Linux):**
+**Durante la ejecución de una secuencia (en Linux o macOS):**
 
 -   Presiona `q` para regresar al menú principal.
 -   Usa las **flechas arriba/abajo** para ajustar la velocidad de la secuencia. La velocidad se conserva entre secuencias.
