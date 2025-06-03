@@ -1,0 +1,3 @@
+C:/Users/Usuario/OneDrive/Documents/TERCER ANIO/Arq de Compu I/Proyecto/Arq.-de-compu-1/cmake-build-debug/CMakeFiles/mi_programa_final.dir
+C:/Users/Usuario/OneDrive/Documents/TERCER ANIO/Arq de Compu I/Proyecto/Arq.-de-compu-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Usuario/OneDrive/Documents/TERCER ANIO/Arq de Compu I/Proyecto/Arq.-de-compu-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
