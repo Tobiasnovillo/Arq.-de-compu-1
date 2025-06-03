@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Arq__de_compu_1",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mi_programa_final::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mi_programa_final-Debug-a39955c0183360409b51.json",
+					"name" : "mi_programa_final",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Usuario/OneDrive/Documents/TERCER ANIO/Arq de Compu I/Proyecto/Arq.-de-compu-1/cmake-build-debug",
+		"source" : "C:/Users/Usuario/OneDrive/Documents/TERCER ANIO/Arq de Compu I/Proyecto/Arq.-de-compu-1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
